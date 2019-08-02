@@ -1,0 +1,38 @@
+<%# <%= simple_format(post.text) %>
+        <%# <span class="name">
+        <a href="">
+        <span>投稿者</span><%= post.user.nickname %>
+        <%# </span>
+      </div>  %>
+<div class="container">
+
+  <div class="box1" >
+    <p><%= post.title %></p>
+     <%# <div class="post-top"> 
+     <%# <%= image_tag(post.image, :size => '300x200', :class => "post-image")%>
+    <p><%= post.text %></p>
+
+    <%= link_to 'Edit', "/posts/#{post.id}/edit", class: :editing, method: :get %>
+
+
+      <%# <div class='more'> %>
+        <%# <a class="button3" href="/posts/new">EDIT</a>
+        <a class="button3" href="/posts/new">DELETE</a> %>
+
+        <%# <%# <ul class="more_list">
+          <li>
+          <%= link_to 'Edit', "/posts/#{post.id}/edit", method: :get %>
+          <%# </li>
+          <li>
+          <%= link_to 'Delete', "/posts/#{post.id}/", method: :delete %>
+          <%# </li>
+        </ul>  %>
+
+      </div>
+
+
+
+  </div>
+
+</div>
+

@@ -1,0 +1,40 @@
+<div class="post-contents">
+
+<%# <%= form_tag('/posts/#{post.id}/edit', method: :get) do %>
+
+
+    <%# <ul class="input">
+        <li class="image">
+            <label for="image"></label>
+            <input id="image" type="text" name="image" placeholder= "ImageURL" >
+        </li>
+        <li class="text">
+            <label for="text"></label>
+            <textarea id="text" name="text" cols="150" rows="30" placeholder="Type..."></textarea>
+        </li>
+        <li><input id="button" type="submit" name="button" value="submit!" >
+        </li>
+    </ul>
+
+  <% end %>
+
+  <%= form_tag("/posts/#{@post.id}", method: :patch) do %>
+
+
+    <ul class="input">
+        <li class="title">
+            <label for="title"></label>
+            <textarea id="title" type="string" name="title" placeholder= "Title"><%= @post.title %></textarea>
+        </li>
+        <li class="text">
+            <label for="text"></label>
+            <textarea id="text" name="text" cols="150" rows="30" placeholder="Type..."><%= @post.text %></textarea>
+        </li>
+        <li><input id="button" type="submit" name="button" value="submit!" >
+        </li>
+    </ul>
+
+  <% end %>
+
+ 
+</div>

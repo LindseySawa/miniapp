@@ -1,0 +1,205 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body{
+  margin: 5px 50px 50px 50px;
+  padding: 0;
+  height: 100%;
+  // background-image: url("https://img21.shop-pro.jp/PA01425/050/product/137270526_o2.jpg?cmsp_timestamp=20190507105028");
+  // background-size: cover;
+  // font-family: 'Love Ya Like A Sister', cursive;
+
+
+}
+.container{
+  display: relative;
+  
+}
+
+
+.top-title{
+  height: 200px;
+  font-size: 25px;
+  font-family: 'Love Ya Like A Sister', cursive;
+  width: 100%;
+
+}
+
+.home{
+  font-size: 45px;
+  padding-bottom: 1px;
+  color: black;
+  text-decoration: none;
+
+}
+
+// .categories{
+// float: right;
+// }
+
+.button1{
+  text-decoration: none;
+  color: black;
+
+}
+
+.button2{
+  text-decoration: none;
+  color: black;
+
+}
+
+.button3{
+  text-decoration: none;
+  color: black;
+  float: right;
+
+
+}
+
+
+.contents{
+  box-sizing: border-box;
+  padding: 0 100px;
+
+}
+
+
+.box1 {
+  position: relative;
+  margin: 2em auto;
+  padding: 1em 2em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  background-color: #fff;
+  color:black;
+  font-weight: bold;
+  height: 200px;
+  width: 100vh;
+  font-family: 'Love Ya Like A Sister', cursive;
+  white-space: normal;
+
+  
+  
+}
+
+.editing{
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 25px;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.box1:before, .box1:after {
+  position: absolute;
+  top: -12px;
+  width: 2px;
+  height: -webkit-calc(100% + 24px);
+  // height: calc(100% + 24px);
+  background-color: black;
+  content: "";
+}
+.box1:before {
+  left: 12px;
+}
+.box1:after {
+  right: 12px;
+}
+// .boxmi15-title {
+//   font-size: 1.15em;
+//   padding: 4px 0 10px 12px;
+//   color: navy;
+//   font-weight:bold;
+//   text-align: center;
+//    margin: -14px -24px 5px -24px;
+// }
+// .boxmi15 p {
+//   text-align: center;
+// }
+//   margin: 0;
+//   padding: 0;
+// }
+// .sen15 {
+//   background-color: #fff;
+//   background-image:
+//   linear-gradient(90deg, rgba(237, 119, 128, 0) 0%, rgba(237, 119, 128, 0) 50%, #fff 0%, #fff 100%), linear-gradient(180deg, rgba(237, 119, 128, 0) 0%, rgba(237, 119, 128, 0) 95%, #ed7780 100%);
+//   background-size: 8px 100%,100% 2em;
+//   line-height: 2;
+//   padding: 4px 10px 22px 10px;
+// }
+
+.more{
+  position: relative;
+
+}
+
+// .more_list{
+//   list-style: none;
+//   display: flex;
+//   float: right;
+
+// }
+
+
+
+// .post-image{
+//   float: right;
+//   box-sizing: border-box;
+//   max-width: 100%;
+//   height: auto;
+// }
+
+
+.pagination{
+  position: absolute;
+  bottom: 0;
+}
+
+.input{
+  list-style: none;
+  text-align: center;
+}
+
+#button{
+  height: 300px;
+  width: 300px;
+  font-size: 100px;
+}
+
+#title{
+  height: 30px;
+  width: 500px;
+  margin-bottom: 15px;
+  font-size: 20px;
+
+}
+
+#text{
+  font-size: 15px;
+}
+// body,
+// #wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+// }
+ 
+// footer {
+//   margin-top: auto;
+// }
+
+.signup, .login{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Love Ya Like A Sister', cursive;
+
+
+}
+

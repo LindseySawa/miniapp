@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keep track of...</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./footerFixed.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <nav>
+          <div class="top-title">
+            <div class="main-title">
+              <a class="home" href="/">Keep track of....</a>
+            </div>
+            <div class="categories">
+              <%# <%= link_to "Sign up", new_user_registration_path
+              <%= link_to "Log in", user_session_path %> 
+
+              <a class="button1" href="/users/sign_up">SIGNUP</a>
+              <a class="button2" href="/users/sign_in">LOGIN</a>
+              <a class="button3" href="/posts/new">POST</a>
+            </div>
+          </div>
+        </nav>
+
+
+
+        <%= yield %>
+
+
+    </div>
+  </body>
+
+</html>

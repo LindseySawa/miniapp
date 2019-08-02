@@ -1,0 +1,21 @@
+<div class="post-contents">
+
+<%= form_tag('/posts', method: :post) do %>
+
+
+    <ul class="input">
+        <li class="title">
+            <label for="title"></label>
+            <input id="title" type="string" name="title" placeholder= "Title" >
+        </li>
+        <li class="text">
+            <label for="text"></label>
+            <textarea id="text" name="text" cols="150" rows="30" placeholder="Type..."></textarea>
+        </li>
+        <li><input id="button" type="submit" name="button" value="submit!" >
+        </li>
+    </ul>
+
+  <% end %>
+
+</div>
